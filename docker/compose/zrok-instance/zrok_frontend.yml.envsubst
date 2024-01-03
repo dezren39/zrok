@@ -8,5 +8,5 @@ oauth:
   hash_key: ${ZROK_OAUTH_HASH_KEY}
   providers:
     - name: google
-      client_id: ""
-      client_secret: ""
+      client_id: ${ZROK_OAUTH_GOOGLE_CLIENT_ID}
+      client_secret: ${ZROK_OAUTH_GOOGLE_CLIENT_SECRET}

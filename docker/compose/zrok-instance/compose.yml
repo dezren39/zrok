@@ -64,7 +64,7 @@ services:
       - caddy_config:/config
     networks:
       quickstart:
- 
+
 volumes:
   caddy_data:
   caddy_config:
